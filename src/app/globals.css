@@ -1,0 +1,311 @@
+:root {
+  --fondo: #FFF6EE;
+  --primary: #285891;
+  --gradient: #4783CB;
+  --text: #313030;
+  --white: #FFFFFF;
+
+}
+
+  @import url('https://fonts.googleapis.com/css2?family=Doppio+One&family=Kumbh+Sans:wght@200&family=Nunito+Sans:opsz@6..12&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Kumbh Sans', sans-serif;
+  line-height: 57px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+header{
+  background-color:  var(--fondo);
+  width: 100%;
+  height: 70px;
+  justify-content: space-between;
+  align-items: center;
+
+  .title{
+    align-items: center;
+    padding-left: 80px;
+    gap: 10px;
+  }
+}
+
+.pointer{
+  cursor: pointer;
+}
+
+.list{
+  padding-right: 80px;
+  gap: 20px;
+  list-style: none;
+
+  > li > h4 > a {
+    color: var(--text);
+    text-decoration: none;
+    cursor: pointer;
+  }
+}
+
+.flex{
+  display: flex;
+}
+
+
+.banner{
+  background-color: var(--gradient);
+  width: 100%;
+  height: 40vw;
+  gap: 50px;
+  align-items: center;
+
+  > div.banner-content{
+    display: flex;
+    flex-direction: column;
+    margin-left: 150px;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 58px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    span{
+      color: white;
+    }
+
+
+    >button{
+      cursor: pointer;
+      margin-top: 80px;
+      color: var(--white);
+      width: 140px;
+      border-radius: 20px;
+      background-color: #17100A;
+      box-shadow: 0px 4px 4px 0px #00000040 inset;
+      border: none;
+      height: 40px;
+      font-family: 'Doppio One', sans-serif;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 23px;
+      letter-spacing: 0em;
+      text-align: center;
+    }
+  }
+
+  > div.imgBanner{
+    justify-content: center; 
+  }
+}
+
+.nosotros{
+  margin-bottom: 50px;
+
+  > div.nosotros-content{
+    background-color: var(--primary);
+    justify-content: flex-end;
+    
+    > h1{
+      color: var(--white);
+      padding-right: 100px;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      font-size: 46px;
+      font-weight: 700;
+      line-height: 57px;
+      letter-spacing: 0em;
+      text-align: left;
+    }
+  }
+
+  > div.nosotros-about{
+    align-items: center;
+    gap: 50px;
+    >img{
+      padding-left: 40px;
+    }
+
+    > div {
+      padding-right: 50px;
+
+      >p{
+        font-size: 22px;
+        line-height: 1.4;
+
+        > span{
+          font-weight: bold;
+        }
+      }
+    
+      > div{
+        align-items: center;
+        background-color: #97BEEE;
+        height: 100px;
+        rotate: -2deg;
+
+      }
+    }
+  }
+}
+
+.textBengalu{
+  line-height: 1;
+  margin-top: 8px;
+  margin-left: 8px;
+  margin-right: 8px;
+  rotate: 2deg;
+  font-size: 20px;
+  
+  >span{
+    font-weight: bold;
+    line-height: 1;
+  }
+}
+
+.quienesSomos{
+
+  > div.quienesSomos-content {
+    
+    background-color: var(--primary);
+    justify-content: flex-start;
+
+    >h1{
+      color: var(--white);
+      padding-left: 50px;
+      padding-top: 15px;
+      padding-bottom: 15px;
+      font-size: 46px;
+      font-weight: 700;
+      line-height: 57px;
+      letter-spacing: 0em;
+      text-align: left;
+    }
+  }
+
+  > div.quienesSomos-about{
+    height: 240px;
+    align-items: center;
+
+    > p{
+
+      line-height: 1.4;
+      margin-left: 80px;
+      margin-right: 400px;
+      font-size: 20px;
+      margin-top: 30px;
+      margin-bottom: 30px;
+
+      >span{
+        line-height: 1.4;
+        font-weight: bold;
+      }
+    }
+  }
+}
+
+.elegirnos{
+
+  
+  > div.elegirnos-content{
+    background-color: var(--primary);
+    justify-content: flex-end;
+    
+    >h1{
+      color: var(--white);
+      padding-top: 20px;
+      padding-bottom: 20px;
+      padding-right: 50px;
+      font-size: 46px;
+      font-weight: 700;
+      line-height: 57px;
+      letter-spacing: 0em;
+      text-align: left;
+    }
+  }
+
+  > div.elegirnos-about{
+    gap: 100px;
+    align-items: center;
+
+
+    .img-elegirnos{
+      margin-top: 60px;
+      width: 800px;
+      height: 300px;
+      margin-bottom: 60px;
+    }
+    
+    > div.elegirnos-team{
+
+      margin-top: 60px;
+      margin-bottom: 60px;
+
+      > p {
+        line-height: 1.4;
+        margin-bottom: 20px;
+
+        >span{
+          line-height: 1.4;
+          size: 20px;
+          font-weight: bold;
+        }
+      }
+    }
+  }
+}
+
+.contact{
+
+  .contact-head{
+    background-color: var(--primary);
+    
+
+    >h1{
+      color: var(--white);
+      padding-top: 20px;
+      padding-bottom: 20px;
+      padding-right: 50px;
+      font-size: 46px;
+      font-weight: 700;
+      line-height: 57px;
+      letter-spacing: 0em;
+      text-align: left;
+    }
+  }
+
+  >div.contact-about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .contact-rotate{
+      background-color: var(--primary);
+      rotate: -1deg;
+      margin-top: 20px;
+      padding: 5px;
+
+      >h3{
+        color: var(--white);
+        rotate: 1deg;
+        margin: 0;
+  
+        padding: 0;
+      }
+    }
+
+    
+    
+    > p {
+      width: 55%;
+      line-height: 1.4;
+      text-align: center;
+
+      > span{
+        font-weight: bold;
+        line-height: 1.4;
+      }
+    }
+  }
+}
