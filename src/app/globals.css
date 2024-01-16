@@ -555,7 +555,7 @@ header{
       .grupo{
         margin-left: 0px;
         margin-right: 0px;
-        color: #0074BA;
+        color: var(--white);
       }
   
       .indep{
