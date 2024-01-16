@@ -8,7 +8,7 @@ function Nosotros() {
                 <h1>Nosotros</h1>
             </div>
             <div className='nosotros-about flex'>
-                <Image src={"svg/group.svg"} width={300} height={300}/>
+                <Image src={"svg/group.svg"} width={300} height={300} alt='group'/>
                 <div>
                     <p>Bienvenido a <span>Bengalu:</span> Transformando Ideas en Realidad.</p>
                     <div className='flex'>

@@ -44,7 +44,7 @@ function Contact() {
                     a alcanzar tus metas digitales. Estamos aquí para convertir tus sueños en realidad.</p>
 
                 
-                    {submit && <div className='content-message'><h3 className='submit-message'>Enviado!, en breve nos pondremos en contacto contigo</h3></div>}
+                    {submit && <div className='content-message'><h3 className='submit-message'>Enviado!, en breve nos pondremos en contacto contigo!</h3></div>}
                 
                 <div className='form-content'>
                     <form className='form' onSubmit={onSubmit}>

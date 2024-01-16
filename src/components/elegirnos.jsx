@@ -10,7 +10,7 @@ function Elegirnos() {
             </div>
             <div className='elegirnos-about flex'>
                 
-                <Image src={"svg/group.svg"} className='img-elegirnos' width={0} height={0}/>
+                <Image src={"svg/group.svg"} className='img-elegirnos' width={0} height={0} alt='we'/>
 
                 <div className='elegirnos-team'>
                     <p>

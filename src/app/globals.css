@@ -23,7 +23,6 @@ body{
   background-repeat: no-repeat;
   backdrop-filter: blur(5px);
   background-position: center 520px;
- 
 }
 
 header{
@@ -148,7 +147,7 @@ header{
       padding-right: 100px;
       padding-top: 20px;
       padding-bottom: 20px;
-      font-size: 250%;
+      font-size: 3vw;
       font-weight: 700;
       line-height: 57px;
       letter-spacing: 0em;
@@ -167,11 +166,11 @@ header{
       padding-right: 50px;
 
       >p{
-        font-size: 120%;
+        font-size: 1.5vw;
         line-height: 1.4;
 
         > span{
-          font-size: 120%;
+          font-size: 1.5vw;
           font-weight: bold;
         }
       }
@@ -194,12 +193,12 @@ header{
   margin-left: 8px;
   margin-right: 8px;
   rotate: 1deg;
-  font-size: 120%;
+  font-size: 1.5vw;
   
   >span{
     font-weight: bold;
     line-height: 1;
-    font-size: 120%;
+    font-size: 1.5vw;
   }
 }
 
@@ -215,7 +214,7 @@ header{
       padding-left: 50px;
       padding-top: 15px;
       padding-bottom: 15px;
-      font-size: 250%;
+      font-size: 3vw;
       font-weight: 700;
       line-height: 57px;
       letter-spacing: 0em;
@@ -232,14 +231,14 @@ header{
       line-height: 1.4;
       margin-left: 80px;
       margin-right: 400px;
-      font-size: 120%;
+      font-size: 1.5vw;
       margin-top: 30px;
       margin-bottom: 30px;
 
       >span{
         line-height: 1.4;
         font-weight: bold;
-        font-size: 120%;
+        font-size: 1.5vw;
       }
     }
   }
@@ -256,7 +255,7 @@ header{
       padding-top: 20px;
       padding-bottom: 20px;
       padding-right: 50px;
-      font-size: 250%;
+      font-size: 3vw;
       font-weight: 700;
       line-height: 57px;
       letter-spacing: 0em;
@@ -284,12 +283,13 @@ header{
       > p {
         line-height: 1.4;
         margin-bottom: 20px;
-        font-size: 120%;
+        font-size: 1.5vw;
+        margin-right: 20px;
 
         >span{
           font-weight: 900;
           line-height: 1.4;
-          font-size: 120%;
+          font-size: 1.5vw;
           font-weight: bold;
         }
       }
@@ -309,7 +309,7 @@ header{
       padding-top: 20px;
       padding-bottom: 20px;
       padding-left: 50px;
-      font-size: 250%;
+      font-size: 3vw;
       font-weight: 700;
       line-height: 57px;
       letter-spacing: 0em;
@@ -324,7 +324,7 @@ header{
     align-items: center;
 
     >div.content-message{
-      background-color: #025E98;
+      background-color: #038d38;
       padding: 5px;
       rotate: -0.5deg;
       display: flex;
@@ -333,7 +333,7 @@ header{
       margin-top: 20px;
 
       h3.submit-message{
-        font-size: 120%;
+        font-size: 1.5vw;
         rotate: 0.5deg;
       }
     } 
@@ -354,13 +354,13 @@ header{
         rotate: 0.5deg;
         margin: 0;
         padding: 0;
-        font-size: 140%;
+        font-size: 1.8vw;
       }
     }
 
     > p {
       width: 55%;
-      font-size: 120%;
+      font-size: 1.5vw;
       line-height: 1.4;
       text-align: center;
 
@@ -488,4 +488,9 @@ header{
   > imgFooter{
     margin-right: 10px;
   }
+}
+
+
+@media screen {
+  
 }
