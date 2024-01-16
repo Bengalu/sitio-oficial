@@ -9,7 +9,7 @@ function Footer() {
         <footer className='footer'>
             <div>
                 <Image src={"svg/footer.svg"} className='imgFooter' alt='logo' width={30} height={30}/>
-                <p className='title'>BenGalu</p>
+                <p className='title'>BenGaLu</p>
                 <p>© 2023 - www.Bengalu.com.ar</p>
             </div>
 
