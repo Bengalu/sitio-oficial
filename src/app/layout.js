@@ -6,7 +6,7 @@ export default function RootLayout({ children }) {
   return (
     <html>
       <head>
-        <title>Bengalug</title>
+        <title>Bengalu</title>
         <link rel="shortcut icon" href="svg/bengalu.svg" />
       </head>
       <body >
