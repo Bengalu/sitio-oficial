@@ -18,11 +18,10 @@
 
 body{
   background-image: url(../../public/svg/banner.svg);
-  background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   backdrop-filter: blur(5px);
-  background-position: 30%;
+  background-position: center 520px;
 }
 
 header{
