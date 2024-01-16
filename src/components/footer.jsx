@@ -10,7 +10,7 @@ function Footer() {
             <div>
                 <Image src={"svg/footer.svg"} className='imgFooter' alt='logo' width={30} height={30}/>
                 <p className='title'>BenGaLu</p>
-                <p>© 2023 - www.Bengalu.com.ar</p>
+                <p>© 2024 - Bengalu.com.ar</p>
             </div>
 
             <Link target='_blank' href={"https://www.linkedin.com/company/bengalu/"}><Image src={"svg/in.svg"} alt='linkedin' width={30} height={30}/></Link>
