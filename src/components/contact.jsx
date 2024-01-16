@@ -25,8 +25,6 @@ function Contact() {
         document.getElementById("email").value = ""
         document.getElementById("subject").value = ""
         document.getElementById("message").value = ""
-        
-
     })
 
 
@@ -49,7 +47,7 @@ function Contact() {
                     <form className='form' onSubmit={onSubmit}>
                         <div>
                             {submit && <h3 className='submit-message'>Enviado!</h3>}
-                            <label htmlFor='email' >Email:</label>
+                            <label htmlFor='email' >Email :</label>
                             <input type='email' id='email' {...register("email", {
                                 required: {
                                     value: true,
@@ -63,22 +61,24 @@ function Contact() {
                             {errors.email && <span className='error'>{errors.email.message}</span>}
                         </div>
                         <div>
-                            <label htmlFor='subject'>Subject:</label>
+                            <label htmlFor='subject'>Asunto :</label>
                             <input type='text' id='subject' {...register("subject", {
                                 required: true
                             })}></input>
                             {errors.subject && <span className='error'>Subject is required</span>}
                         </div>
                         <div>
-                            <label htmlFor='messageText'>Message:</label>
+                            <label htmlFor='messageText'>Mensaje :</label>
                             <textarea id='message' className='input-text' {...register("messageText", {
                                 required: true
                             })}>
                             </textarea>
                             {errors.messageText && <span className='error'>message is required</span>}
                         </div>
-
-                        <button type='submit' id='send'>SEND</button>
+                        
+                        <div className='btn'>
+                            <button type='submit' id='send'>Enviar</button>
+                        </div>
 
                     </form>
                 </div>

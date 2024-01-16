@@ -2,7 +2,7 @@ import Email from '@/components/Email'
 import { NextRequest, NextResponse } from "next/server";
 import { Resend } from "resend";
 
-const resend = new Resend("re_dwprjkH5_82EpGdQui21K2N2ee3hHh7Gy");
+const resend = new Resend("re_eCxVHk6W_KQfZ1BbtdJectP2RXDuCWnXn");
 
 export async function POST(request, response) {
     const res = await request.json();
