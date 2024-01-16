@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 function Banner() {
     return (
-        <section className='banner flex'>
+        <section className='banner'>
             <div className='banner-content'>
                 <h1 className='soluciones'>Soluciones IT</h1>
                 <h1 className='grupo'>Grupo de Desarrolladores <br /><span>independientes</span></h1>

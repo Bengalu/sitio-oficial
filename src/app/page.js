@@ -8,11 +8,11 @@ import QuienesSomos from "@/components/quienesSomos";
 export default function Home() {
   return (
     <main>
-      <Banner/>
-      <Nosotros/>
-      <QuienesSomos/>
-      <Elegirnos/>
-      <Contact/>
+      <Banner />
+      <Nosotros />
+      <QuienesSomos />
+      <Elegirnos />
+      <Contact />
     </main>
   )
 }
