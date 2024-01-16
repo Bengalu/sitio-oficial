@@ -13,7 +13,7 @@ function Footer() {
                 <p>© 2023 - www.Bengalu.com.ar</p>
             </div>
 
-            <Link href={"https://www.linkedin.com/company/bengalu/"}><Image src={"svg/in.svg"} alt='linkedin' width={30} height={30}/></Link>
+            <Link target='_blank' href={"https://www.linkedin.com/company/bengalu/"}><Image src={"svg/in.svg"} alt='linkedin' width={30} height={30}/></Link>
         </footer>
     )
 }

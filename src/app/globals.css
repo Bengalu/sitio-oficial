@@ -491,6 +491,324 @@ header{
 }
 
 
-@media screen {
+@media screen and (max-width: 900px) {
+
+  body{
+    background-color: #080E13;
+    background-image: none;
+  }
+
+  header{
+    width: 100%;
+    height: 70px;
+    justify-content: center;
+    align-items: center;
   
+    .title{
+      color: var(--text);
+      align-items: center;
+      padding-left: 0px;
+      gap: 10px;
+  
+      > h2 {
+        cursor: pointer;
+      }
+    }
+
+    >div:not(.title){
+      display: none;
+    }
+  }
+
+  .nosotros{
+    margin-bottom: 0;
+    color: var(--white);
+  
+    > div.nosotros-content{
+      height: 40px;
+      align-items: center;
+      justify-content: center;
+      
+      > h1{
+        padding-right: 0px;
+        font-size: 5vw;
+        font-weight: 700;
+        line-height: 57px;
+        letter-spacing: 0em;
+        text-align: left;
+      }
+    }
+  
+    > div.nosotros-about{
+      width: 100%;
+      justify-content: center;
+      align-items: center;
+      margin-top: 10px;
+      gap: 50px;
+      >img{
+        display: none;
+      }
+  
+      > div {
+        padding-right: 0px;
+        width: 80%;
+  
+        >p{
+          margin-top: 10px;
+          text-align: center;
+          font-size: 3vw;
+          line-height: 1.4;
+  
+          > span{
+            font-size: 3vw;
+            font-weight: bold;
+          }
+        }
+      
+        > div {
+          margin-top: 10px;
+          align-items: center;
+          background-color: #84838385;
+          height: 80px;
+          rotate: -0.5deg;
+          margin-bottom: 30px;
+        }
+      }
+    }
+  }
+
+  .textBengalu{
+    line-height: 1;
+    margin-top: 0px;
+    margin-left: 4px;
+    margin-right: 2px;
+    rotate: 0.5deg;
+    font-size: 3vw;
+    
+    >span{
+      font-weight: bold;
+      line-height: 1;
+      font-size: 3vw;
+    }
+  }
+
+  .quienesSomos{
+    color: var(--white);
+    > div.quienesSomos-content {
+      justify-content: center;
+      align-items: center;
+      height: 40px;
+  
+      >h1{
+        padding-left: 0px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        font-size: 5vw;
+        font-weight: 700;
+        line-height: 57px;
+        letter-spacing: 0em;
+        text-align: left;
+      }
+    }
+  
+    > div.quienesSomos-about{
+      width: 100%;
+      height: auto;
+      padding-top: 40px;
+      padding-bottom: 40px;
+      justify-content: center;
+      align-items: center;
+  
+      > p{
+        text-align: center;
+        width: 100%;
+        height: 100%;
+        line-height: 1.4;
+        margin-left: 20px;
+        margin-right: 20px;
+        font-size: 3vw;
+        margin-top: 0px;
+        margin-bottom: 0px;
+  
+        >span{
+          line-height: 1.4;
+          font-weight: bold;
+          font-size: 3vw;
+        }
+      }
+    }
+  }
+
+  .elegirnos{
+    color: var(--white);
+    
+    > div.elegirnos-content{
+      background-color: #2A3F54DE;
+      justify-content: center;
+      align-items: center;
+      height: 40px;
+      
+      >h1{
+        padding-top: 0px;
+        padding-bottom: 0px;
+        padding-right: 0px;
+        font-size: 5vw;
+        font-weight: 700;
+        line-height: 57px;
+        letter-spacing: 0em;
+        text-align: left;
+      }
+    }
+  
+    > div.elegirnos-about{
+      gap: 100px;
+      align-items: center;
+  
+      .img-elegirnos{
+        display: none;
+        margin-top: 60px;
+        width: 800px;
+        height: 300px;
+        margin-bottom: 60px;
+      }
+      
+      > div.elegirnos-team{
+        width: 100%;
+        margin-top: 30px;
+        margin-bottom: 10px;
+  
+        > p {
+          text-align: center;
+          line-height: 1.4;
+          margin-bottom: 20px;
+          font-size: 3vw;
+          margin-right: 20px;
+          margin-left: 20px;
+  
+          >span{
+            font-weight: 900;
+            line-height: 1.4;
+            font-size: 3vw;
+            font-weight: bold;
+          }
+        }
+      }
+    }
+  }
+
+
+  .contact{
+    color: var(--white);
+    padding-bottom: 100px;
+
+    .contact-head{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 40px;
+  
+      >h1{
+        padding-top: 0px;
+        padding-bottom: 0px;
+        padding-left: 0px;
+        font-size: 5vw;
+        font-weight: 700;
+        line-height: 57px;
+        letter-spacing: 0em;
+        text-align: left;
+      }
+    }
+  
+    >div.contact-about{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  
+      >div.content-message{
+        background-color: #038d38;
+        padding: 5px;
+        rotate: -0.5deg;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+  
+        h3.submit-message{
+          font-size: 3vw;
+          rotate: 0.5deg;
+        }
+      } 
+  
+      .contact-rotate{
+        background-color: #025E98;
+        padding: 5px;
+        rotate: -0.5deg;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        padding-left: 5px;
+        padding-right: 5px;
+        display: flex;
+        justify-content: center;
+  
+        >h3{
+          color: var(--white);
+          rotate: 0.5deg;
+          margin: 0;
+          padding: 0;
+          font-size: 3.2vw;
+        }
+      }
+  
+      > p {
+        width: 55%;
+        font-size: 3vw;
+        line-height: 1.4;
+        text-align: center;
+  
+  
+        > span{
+          font-weight: bold;
+          line-height: 1.4;
+        }
+      }
+    }
+  }
+
+
+  .footer{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #263876;
+    display: flex;
+    justify-content: space-between;
+    color: var(--white);
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    
+    > div{
+      display: flex;
+      align-items: center;
+      text-align: center;
+      
+      > img{
+        margin-right: 10px;
+      }
+  
+      p.title{
+        font-size: 30px;
+        font-weight: 400;
+        margin-right: 0px;
+      }
+
+      > p:not(.title){
+        display: none;
+      }
+    }
+  
+    > imgFooter{
+      margin-right: 10px;
+    }
+  }
 }
