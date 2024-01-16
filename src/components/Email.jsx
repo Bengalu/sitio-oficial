@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Email() {
+function Email(props) {
     return (
         <div>
             <h1>{props.email}</h1>

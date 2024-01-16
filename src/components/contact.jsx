@@ -29,7 +29,7 @@ function Contact() {
 
 
     return (
-        <section className='contact'>
+        <section className='contact' id='contact'>
             <div className='contact-head'>
                 <h1>Contactanos</h1>
             </div>
@@ -43,10 +43,12 @@ function Contact() {
                     Completa el formulario a continuación y déjanos saber cómo podemos ayudarte
                     a alcanzar tus metas digitales. Estamos aquí para convertir tus sueños en realidad.</p>
 
+                
+                    {submit && <div className='content-message'><h3 className='submit-message'>Enviado!, en breve nos pondremos en contacto contigo</h3></div>}
+                
                 <div className='form-content'>
                     <form className='form' onSubmit={onSubmit}>
                         <div>
-                            {submit && <h3 className='submit-message'>Enviado!</h3>}
                             <label htmlFor='email' >Email :</label>
                             <input type='email' id='email' {...register("email", {
                                 required: {
@@ -58,14 +60,14 @@ function Contact() {
                                     message: "Email is invalid"
                                 }
                             })}></input>
-                            {errors.email && <span className='error'>{errors.email.message}</span>}
+                            {errors.email && <span className='error'>Email es requerido</span>}
                         </div>
                         <div>
                             <label htmlFor='subject'>Asunto :</label>
                             <input type='text' id='subject' {...register("subject", {
                                 required: true
                             })}></input>
-                            {errors.subject && <span className='error'>Subject is required</span>}
+                            {errors.subject && <span className='error'>Asunto es requerido</span>}
                         </div>
                         <div>
                             <label htmlFor='messageText'>Mensaje :</label>
@@ -73,7 +75,7 @@ function Contact() {
                                 required: true
                             })}>
                             </textarea>
-                            {errors.messageText && <span className='error'>message is required</span>}
+                            {errors.messageText && <span className='error'>Mensaje es requerido</span>}
                         </div>
                         
                         <div className='btn'>

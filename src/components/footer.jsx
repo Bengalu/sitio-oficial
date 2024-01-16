@@ -1,5 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
+import Link from 'next/link'
+
 
 
 function Footer() {
@@ -11,7 +13,7 @@ function Footer() {
                 <p>© 2023 - www.Bengalu.com.ar</p>
             </div>
 
-            <Image src={"svg/in.svg"} alt='linkedin' width={30} height={30}/>
+            <Link href={"https://www.linkedin.com/company/bengalu/"}><Image src={"svg/in.svg"} alt='linkedin' width={30} height={30}/></Link>
         </footer>
     )
 }

@@ -14,6 +14,7 @@
   padding: 0;
   font-family: 'Kumbh Sans', sans-serif;
   text-align: left;
+  scroll-behavior: smooth;
 }
 
 body{
@@ -22,6 +23,7 @@ body{
   background-repeat: no-repeat;
   backdrop-filter: blur(5px);
   background-position: center 520px;
+ 
 }
 
 header{
@@ -33,10 +35,14 @@ header{
   align-items: center;
 
   .title{
-    
+    color: var(--text);
     align-items: center;
     padding-left: 80px;
     gap: 10px;
+
+    > h2 {
+      cursor: pointer;
+    }
   }
 }
 
@@ -104,7 +110,7 @@ header{
 
     
 
-    >button{
+    > a > button{
       cursor: pointer;
       margin-top: 40px;
       color: var(--white);
@@ -298,7 +304,7 @@ header{
       
       padding-top: 20px;
       padding-bottom: 20px;
-      padding-right: 50px;
+      padding-left: 50px;
       font-size: 46px;
       font-weight: 700;
       line-height: 57px;
@@ -312,6 +318,20 @@ header{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+    >div.content-message{
+      background-color: #025E98;
+      padding: 5px;
+      rotate: -0.5deg;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 20px;
+
+      h3.submit-message{
+        rotate: 0.5deg;
+      }
+    } 
 
     .contact-rotate{
       background-color: #025E98;
@@ -337,6 +357,7 @@ header{
       line-height: 1.4;
       text-align: center;
 
+
       > span{
         font-weight: bold;
         line-height: 1.4;
@@ -358,6 +379,8 @@ header{
   border-radius: 20px;
   padding-top: 20px;
   padding-bottom: 20px;
+  
+  
 
   > div.btn {
     display: flex;
@@ -380,6 +403,7 @@ header{
       color: var(--white);
       font-weight: 600;
       background-color: #757576;
+      cursor: pointer;
     }
   }
 
@@ -417,12 +441,13 @@ header{
       border-radius: 20px;
       outline: none;
       resize: none;
+      margin-bottom: 10px;
     }
   }
 
   .error{
     color: red;
-    padding-left: 10px;
+    padding-left: 32px;
   }
 }
 

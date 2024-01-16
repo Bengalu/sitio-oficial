@@ -2,7 +2,7 @@ import React from 'react'
 
 function QuienesSomos() {
     return (
-        <section className='quienesSomos'>
+        <section className='quienesSomos' id='quienesSomos'>
             <div className='quienesSomos-content flex'>
                 <h1>¿Quienes Somos?</h1>
             </div>
